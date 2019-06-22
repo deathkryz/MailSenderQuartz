@@ -94,10 +94,10 @@ hibernate:
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/prod_accesos?autoReconnect=true&useSSL=false
+    url: jdbc:mysql://138.68.43.209:3306/prod_accesos?autoReconnect=true&useSSL=false
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-    username: root
-    password: "root"
+    username: mosis
+    password: "mosis.app"
     properties:
       jmxEnabled: true
       initialSize: 5
@@ -122,17 +122,17 @@ environments:
     dataSource:
       dbCreate: none
       driverClassName: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/prod_accesos?autoReconnect=true&useSSL=false
-      username: root
-      password: "root"
+      url: jdbc:mysql://138.68.43.209:3306/prod_accesos?autoReconnect=true&useSSL=false
+      username: mosis
+      password: "mosis.app"
   test:
     dataSource:
       dbCreate: none
-      url: jdbc:mysql://localhost:3306/prod_accesos?autoReconnect=true&useSSL=false
+      url: jdbc:mysql://138.68.43.209:3306/prod_accesos?autoReconnect=true&useSSL=false
   production:
     dataSource:
       dbCreate: none
-      url: jdbc:mysql://localhost:3306/prod_accesos?autoReconnect=true&useSSL=false
+      url: jdbc:mysql://138.68.43.209:3306/prod_accesos?autoReconnect=true&useSSL=false
       properties:
         jmxEnabled: true
         initialSize: 5
@@ -168,8 +168,8 @@ grails:
   mail:
     host: "smtp.gmail.com"
     port: 465
-    username: "user@mail"
-    password: "password"
+    username: "sgaccesos@gmail.com"
+    password: "Xqd.2234"
     props:
       mail.smtp.auth: "true"
       mail.smtp.socketFactory.port: "465"
